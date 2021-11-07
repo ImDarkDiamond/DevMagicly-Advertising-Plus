@@ -3,23 +3,6 @@
 version = 3
 
 [[package]]
-name = "DevMagicly-Advertising-Plus"
-version = "0.1.0"
-dependencies = [
- "dotenv",
- "futures",
- "serde",
- "sled",
- "tokio",
- "tracing",
- "tracing-subscriber",
- "twilight-cache-inmemory",
- "twilight-gateway",
- "twilight-http",
- "twilight-model",
-]
-
-[[package]]
 name = "adler"
 version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -213,6 +196,23 @@ checksum = "e77a43b28d0668df09411cb0bc9a8c2adc40f9a048afe863e05fd43251e8e39c"
 dependencies = [
  "cfg-if",
  "num_cpus",
+]
+
+[[package]]
+name = "devmagicly-advertising-plus"
+version = "0.1.0"
+dependencies = [
+ "dotenv",
+ "futures",
+ "serde",
+ "sled",
+ "tokio",
+ "tracing",
+ "tracing-subscriber",
+ "twilight-cache-inmemory",
+ "twilight-gateway",
+ "twilight-http",
+ "twilight-model",
 ]
 
 [[package]]
