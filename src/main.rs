@@ -17,7 +17,7 @@ async fn main() -> Result<(), Box<dyn Error + Send + Sync>> {
     info!("Loading configuration for Advertising-Plus");
     dotenv::dotenv().ok();
     let config = Config::from_env();
-    info!("Loaded configuration for Adveritsing-Plus");
+    info!("Loaded configuration for Advertsing-Plus");
 
 
     let (shard, mut events) = Shard::new(config.token.clone(), Intents::all());
